@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "schema_dot_org"
-  spec.version       = '1.6.0'
-  spec.authors       = ["Robb Shecter"]
+  spec.version       = '1.6.1'
+  spec.authors       = ["Robb Shecter", "Yevhenii Datsiuk"]
   spec.email         = ["robb@public.law"]
 
   spec.summary       = %q{JSON-LD generator for Schema.org vocabulary}
